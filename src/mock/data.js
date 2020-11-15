@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Nutrilink', // e.g: 'Name | Developer'
+  lang: 'pt', // e.g: en, es, fr, jp
+  description: 'Serviço de subscrição para entrega de comida saudável', // e.g: Welcome to my website
 };
 
 // HERO DATA
@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'healthyjpeg.jpeg',
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
@@ -29,37 +29,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    title: 'Aplicação para encomendar comida',
+    info:
+      'O nosso projeto atualmente é a introdução de uma aplicação. Este sistema de informação vai simplificar o processo de encomendar e pagar pela comida.',
+    info2: 'Quando o projeto estiver concluido links estarão disponíveis',
+    url: '', // if no url, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Quer entrar em contacto connosco?',
+  btn: 'Enviar email',
+  email: 'gilteixeira@ua.pt',
 };
 
 // FOOTER DATA
@@ -67,23 +50,18 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
+      name: 'facebook',
+      url: '',
+    },
+    {
+      id: nanoid(),
       name: 'twitter',
       url: '',
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/bearkillerPT/micro-siteAMS',
     },
   ],
 };
