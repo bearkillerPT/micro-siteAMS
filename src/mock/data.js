@@ -44,8 +44,10 @@ export const projectsData = [
     info: ' ',
     info2: ' ',
     infoDict: {
-      'Entrega nº1': 'https://micro-site-ams.herokuapp.com/entregas/entrega1.zip',
-      'Entrega nº2': 'https://micro-site-ams.herokuapp.com/entregas/entrega2.pdf',
+      'Entrega nº1':
+        'https://github.com/bearkillerPT/micro-siteAMS/tree/master/entregas/entrega1.zip',
+      'Entrega nº2':
+        'https://github.com/bearkillerPT/micro-siteAMS/tree/master/entregas/entrega2.pdf',
     },
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
