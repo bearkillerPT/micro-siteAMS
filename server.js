@@ -6,7 +6,8 @@ const INDEX = 'public/index.html';
 
 const server = express()
   .use(express.static('public'))
-  .use(express.static('entregas'))
+  .use(express.static('entregas/entrega1.zip'))
+  .use(express.static('entregas/entrega2.pdf'))
   .use((req, res) => res.sendFile(INDEX, { root: __dirname }))
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
