@@ -28,7 +28,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projectos" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
+            const { title, info, info2, infoDict, url, repo, img, id } = project;
 
             return (
               <Row key={id}>
@@ -48,6 +48,21 @@ const Projects = () => {
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
+                        {infoDict &&
+                          Object.entries(infoDict).map((key) => (
+                            <div>
+                              <p style={{ fontWeight: 'bold' }}>{key[0]}:</p>
+                              <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="cta-btn cta-btn--hero"
+                                href={`${key[1]}`}
+                                style={{ marginBottom: '1rem' }}
+                              >
+                                Download
+                              </a>
+                            </div>
+                          ))}
                       </div>
                       {url && (
                         <a

@@ -33,6 +33,20 @@ export const projectsData = [
     info:
       'O nosso projeto atualmente é a introdução de uma aplicação. Este sistema de informação vai simplificar o processo de encomendar e pagar pela comida.',
     info2: 'Quando o projeto estiver concluido links estarão disponíveis',
+    infoDict: '',
+    url: '', // if no url, the button will not show up
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'nostressed.jpg',
+    title: 'Entregas feitas até ao momento:',
+    info: ' ',
+    info2: ' ',
+    infoDict: {
+      'Entrega nº1': 'https://micro-site-ams.herokuapp.com/entregas/entrega1.zip',
+      'Entrega nº2': 'https://micro-site-ams.herokuapp.com/entregas/entrega2.pdf',
+    },
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
   },
