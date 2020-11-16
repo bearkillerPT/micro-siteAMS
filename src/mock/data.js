@@ -45,9 +45,9 @@ export const projectsData = [
     info2: ' ',
     infoDict: {
       'Entrega nº1':
-        'https://github.com/bearkillerPT/micro-siteAMS/tree/master/entregas/entrega1.zip',
+        'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/entrega1.zip',
       'Entrega nº2':
-        'https://github.com/bearkillerPT/micro-siteAMS/tree/master/entregas/entrega2.pdf',
+        'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/entrega2.pdf',
     },
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
