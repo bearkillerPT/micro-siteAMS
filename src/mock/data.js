@@ -50,6 +50,8 @@ export const projectsData = [
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/entrega2.pdf',
       'Entrega nº3':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/AMS-E2-Relatorio%20Visao.pdf',
+      'Entrega nº4':
+        'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/LAB_3_AMS.pdf',
     },
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
