@@ -1,13 +1,9 @@
 import React, { useContext, useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
 import Fade from 'react-reveal/Fade';
-import Tilt from 'react-tilt';
-import { Container, Row, Col} from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-import ProjectImg from '../Image/ProjectImg';
-import { Player } from 'video-react';
-import appVideo from '../../video/appAMS.gif';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -31,7 +27,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projectos" />
           {projects.map((project) => {
-            const { title, info, info2, infoDict, url, repo, img, id, videoSource } = project;
+            const { title, info, info2, infoDict, url, repo, id, videoSource } = project;
 
             return (
               <Row key={id}>
@@ -100,14 +96,14 @@ const Projects = () => {
                     distance="30px"
                   >
                     {videoSource && (
-                        <ReactPlayer
+                      <ReactPlayer
                         url="https://github.com/bearkillerPT/micro-siteAMS/raw/master/src/video/app.mp4"
-                        loop={true}
-                        controls={true}
-                        muted={true}
-                        playing={true}
+                        loop
+                        controls
+                        muted
+                        playing
                       />
-                      )}
+                    )}
                   </Fade>
                 </Col>
               </Row>
