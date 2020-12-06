@@ -35,7 +35,7 @@ export const projectsData = [
     info2: 'Quando o projeto estiver concluido links estarão disponíveis',
     infoDict: '',
     videoSource: 'app.mp4',
-    url: '', // if no url, the button will not show up
+    url: 'https://micro-site-ams.herokuapp.com/app', // if no url, the button will not show up
     repo: 'https://github.com/bearkillerPT/appAMS', // if no repo, the button will not show up
   },
   {

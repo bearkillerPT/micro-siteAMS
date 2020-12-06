@@ -3,10 +3,13 @@ const { Server } = require('ws');
 
 const PORT = process.env.PORT || 8080;
 const INDEX = 'public/index.html';
+const APPINDEX = 'appWeb-build/index.html';
 
 const server = express()
   .use(express.static('public'))
-  .use((req, res) => res.sendFile(INDEX, { root: __dirname }))
+  .use(express.static('appWeb-build'))
+  .get('/', (req, res) => res.sendFile(INDEX, { root: __dirname }))
+  .get('/app', (req, res) => res.sendFile(APPINDEX, { root: __dirname }))
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 const wss = new Server({ server });
