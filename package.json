@@ -61,11 +61,6 @@
   "bugs": {
     "url": "https://github.com/bearkillerPT/micro-siteAMS/issues"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.+(json|css|md)": [
       "prettier --write",
