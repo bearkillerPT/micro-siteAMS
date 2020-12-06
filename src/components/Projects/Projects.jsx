@@ -1,10 +1,13 @@
 import React, { useContext, useEffect, useState } from 'react';
+import ReactPlayer from 'react-player';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col} from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
+import { Player } from 'video-react';
+import appVideo from '../../video/appAMS.gif';
 
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
@@ -28,7 +31,7 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projectos" />
           {projects.map((project) => {
-            const { title, info, info2, infoDict, url, repo, img, id } = project;
+            const { title, info, info2, infoDict, url, repo, img, id, videoSource } = project;
 
             return (
               <Row key={id}>
@@ -96,32 +99,15 @@ const Projects = () => {
                     delay={1000}
                     distance="30px"
                   >
-                    <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
-                      >
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
-                      </a>
-                    </div>
+                    {videoSource && (
+                        <ReactPlayer
+                        url="https://github.com/bearkillerPT/micro-siteAMS/raw/master/src/video/app.mp4"
+                        loop={true}
+                        controls={true}
+                        muted={true}
+                        playing={true}
+                      />
+                      )}
                   </Fade>
                 </Col>
               </Row>

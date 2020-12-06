@@ -34,8 +34,9 @@ export const projectsData = [
       'O nosso projeto atualmente é a introdução de uma aplicação. Este sistema de informação vai simplificar o processo de encomendar e pagar pela comida.',
     info2: 'Quando o projeto estiver concluido links estarão disponíveis',
     infoDict: '',
+    videoSource: 'app.mp4',
     url: '', // if no url, the button will not show up
-    repo: '', // if no repo, the button will not show up
+    repo: 'https://github.com/bearkillerPT/appAMS', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
