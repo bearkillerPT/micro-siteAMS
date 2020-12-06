@@ -1,10 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react';
 import ReactPlayer from 'react-player';
 import Fade from 'react-reveal/Fade';
+import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
-
+import ProjectImg from '../Image/ProjectImg';
 const Projects = () => {
   const { projects } = useContext(PortfolioContext);
 
@@ -27,85 +28,133 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projectos" />
           {projects.map((project) => {
-            const { title, info, info2, infoDict, url, repo, id, videoSource } = project;
+            const { title, info, info2, infoDict, url, repo, img, id, videoSource } = project;
 
             return (
-              <Row key={id}>
-                <Col lg={4} sm={12}>
-                  <Fade
-                    left={isDesktop}
-                    bottom={isMobile}
-                    duration={1000}
-                    delay={500}
-                    distance="30px"
-                  >
-                    <div className="project-wrapper__text">
-                      <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
-                      <div>
-                        <p>
-                          {info ||
-                            'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
-                        </p>
-                        <p className="mb-4">{info2 || ''}</p>
-                        {infoDict &&
-                          Object.entries(infoDict).map((key) => (
-                            <div>
-                              <p style={{ fontWeight: 'bold' }}>{key[0]}:</p>
-                              <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="cta-btn cta-btn--hero"
-                                href={`${key[1]}`}
-                                style={{ marginBottom: '1rem' }}
-                              >
-                                Download
-                              </a>
-                            </div>
-                          ))}
-                      </div>
-                      {url && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn cta-btn--hero"
-                          href={url || '#!'}
-                        >
-                          See Live
-                        </a>
-                      )}
+              <Container>
+                <Row key={id}>
+                  <Col lg={4} sm={12}>
+                    <Fade
+                      left={isDesktop}
+                      bottom={isMobile}
+                      duration={1000}
+                      delay={500}
+                      distance="30px"
+                    >
+                      <div className="project-wrapper__text">
+                        <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
+                        <div>
+                          <p>
+                            {info ||
+                              'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
+                          </p>
+                          <p className="mb-4">{info2 || ''}</p>
 
-                      {repo && (
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="cta-btn text-color-main"
-                          href={repo}
-                        >
-                          Source Code
-                        </a>
+                        </div>
+                        {url && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--hero"
+                            href={url || '#!'}
+                          >
+                            See Live
+                          </a>
+                        )}
+
+                        {repo && (
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn text-color-main"
+                            href={repo}
+                          >
+                            Source Code
+                          </a>
+                        )}
+                      </div>
+                    </Fade>
+                  </Col>
+                  <Col lg={8} sm={12}>
+                    <Fade
+                      right={isDesktop}
+                      bottom={isMobile}
+                      duration={1000}
+                      delay={1000}
+                      distance="30px"
+                    >
+                      {videoSource && (
+                        <div className='player-wrapper'>
+                        <ReactPlayer
+                          className='react-player'
+                          url="https://github.com/bearkillerPT/micro-siteAMS/raw/master/src/video/app.mp4"
+                          loop
+                          muted
+                          playing
+                          height='75%'
+                        />
+                        </div>
                       )}
-                    </div>
-                  </Fade>
-                </Col>
-                <Col lg={8} sm={12}>
-                  <Fade
-                    right={isDesktop}
-                    bottom={isMobile}
-                    duration={1000}
-                    delay={1000}
-                    distance="30px"
-                  >
-                    {videoSource && (
-                      <ReactPlayer
-                        url="https://github.com/bearkillerPT/micro-siteAMS/raw/master/src/video/app.mp4"
-                        loop
-                        muted
-                        playing
-                      />
-                    )}
-                  </Fade>
-                </Col>
-              </Row>
+                    </Fade>
+                  </Col>
+                </Row>
+                <Row key={id}>
+                  <Col lg={6} sm={12}>
+                    {infoDict &&
+                      Object.entries(infoDict).map((key) => (
+                        <div>
+                          <p style={{ fontWeight: 'bold' }}>{key[0]}:</p>
+                          <a
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="cta-btn cta-btn--hero"
+                            href={`${key[1]}`}
+                            style={{ marginBottom: '1rem' }}
+                          >
+                            Download
+                              </a>
+                        </div>
+                      ))}
+                  </Col>
+                  <Col lg={6} sm={12}>
+                    <Fade
+                      right={isDesktop}
+                      bottom={isMobile}
+                      duration={1000}
+                      delay={1000}
+                      distance="30px"
+                    >
+                      <div className="project-wrapper__image">
+                        <a
+                          href={url || '#!'}
+                          target="_blank"
+                          aria-label="Project Link"
+                          rel="noopener noreferrer"
+                        >
+                          <Tilt
+                            options={{
+                              reverse: false,
+                              max: 8,
+                              perspective: 1000,
+                              scale: 1,
+                              speed: 300,
+                              transition: true,
+                              axis: null,
+                              reset: true,
+                              easing: 'cubic-bezier(.03,.98,.52,.99)',
+                            }}
+                          >
+                            {img && 
+                            <div data-tilt className="thumbnail rounded">
+                              <ProjectImg alt={title} filename={img} />
+                            </div>}
+                          </Tilt>
+                        </a>
+                      </div>
+                    </Fade>
+                  </Col>
+                </Row>
+              </Container>
             );
           })}
         </div>
