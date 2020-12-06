@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Aplicação para encomendar comida',
     info:
       'O nosso projeto atualmente é a introdução de uma aplicação. Este sistema de informação vai simplificar o processo de encomendar e pagar pela comida.',
-    info2: 'Quando o projeto estiver concluido links estarão disponíveis',
+    info2: 'Experimente a app:',
     infoDict: '',
     videoSource: 'app.mp4',
     url: 'https://micro-site-ams.herokuapp.com/app', // if no url, the button will not show up
