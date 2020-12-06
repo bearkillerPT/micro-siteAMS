@@ -99,7 +99,6 @@ const Projects = () => {
                       <ReactPlayer
                         url="https://github.com/bearkillerPT/micro-siteAMS/raw/master/src/video/app.mp4"
                         loop
-                        controls
                         muted
                         playing
                       />
