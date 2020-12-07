@@ -10,7 +10,7 @@
   }
   .player-wrapper {
     position: relative;
-    padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+    padding-top: 60% /* Player ratio: 100 / (1280 / 720) */
   }
    
   .react-player {
@@ -26,10 +26,10 @@
     }
 
     .row {
-      margin-bottom: 8rem;
+      margin-bottom: 4rem;
 
       @include respond(phone) {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
       }
     }
 

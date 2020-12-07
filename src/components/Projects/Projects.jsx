@@ -75,15 +75,15 @@ const Projects = () => {
                       </div>
                     </Fade>
                   </Col>
-                  <Col lg={8} sm={12}>
-                    <Fade
-                      right={isDesktop}
-                      bottom={isMobile}
-                      duration={1000}
-                      delay={1000}
-                      distance="30px"
-                    >
-                      {videoSource && (
+                  {videoSource && (
+                    <Col lg={8} sm={12}>
+                      <Fade
+                        right={isDesktop}
+                        bottom={isMobile}
+                        duration={1000}
+                        delay={1000}
+                        distance="30px"
+                      >
                         <div className='player-wrapper'>
                         <ReactPlayer
                           className='react-player'
@@ -94,28 +94,27 @@ const Projects = () => {
                           height='75%'
                         />
                         </div>
-                      )}
                     </Fade>
                   </Col>
+                  )}
                 </Row>
-                <Row key={id}>
-                  <Col lg={6} sm={12}>
-                    {infoDict &&
-                      Object.entries(infoDict).map((key) => (
-                        <div>
-                          <p style={{ fontWeight: 'bold' }}>{key[0]}:</p>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="cta-btn cta-btn--hero"
-                            href={`${key[1]}`}
-                            style={{ marginBottom: '1rem' }}
-                          >
-                            Download
-                              </a>
-                        </div>
-                      ))}
-                  </Col>
+                <Row key={id}>{infoDict &&
+                  <Col lg={6} sm={12} style={{textAlign: 'left' }}>{
+                    Object.entries(infoDict).map((key) =>
+                      <div>
+                        <p style={{ fontWeight: 'bold' }}>{key[0]}:</p>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="cta-btn cta-btn--hero"
+                          href={`${key[1]}`}
+                          style={{ marginBottom: '1rem'}}
+                        >
+                          Download
+                            </a>
+                      </div>)}
+                  </Col>}
+                  {img && 
                   <Col lg={6} sm={12}>
                     <Fade
                       right={isDesktop}
@@ -138,14 +137,14 @@ const Projects = () => {
                               easing: 'cubic-bezier(.03,.98,.52,.99)',
                             }}
                           >
-                            {img && 
+                            
                             <div data-tilt className="thumbnail rounded">
                               <ProjectImg alt={title} filename={img} />
-                            </div>}
+                            </div>
                           </Tilt>
                       </div>
                     </Fade>
-                  </Col>
+                  </Col>}
                 </Row>
               </Container>
             );
