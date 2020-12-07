@@ -1,11 +1,11 @@
 {
   "files": {
-    "app.js": "/static/js/app.d442a6cf.chunk.js",
-    "app.js.map": "/static/js/app.d442a6cf.chunk.js.map",
+    "app.js": "/static/js/app.3b03ecc7.chunk.js",
+    "app.js.map": "/static/js/app.3b03ecc7.chunk.js.map",
     "runtime~app.js": "/static/js/runtime~app.2e9f1821.js",
     "runtime~app.js.map": "/static/js/runtime~app.2e9f1821.js.map",
-    "static/js/2.57bbe3d9.chunk.js": "/static/js/2.57bbe3d9.chunk.js",
-    "static/js/2.57bbe3d9.chunk.js.map": "/static/js/2.57bbe3d9.chunk.js.map",
+    "static/js/2.ad03a056.chunk.js": "/static/js/2.ad03a056.chunk.js",
+    "static/js/2.ad03a056.chunk.js.map": "/static/js/2.ad03a056.chunk.js.map",
     "fonts/Ionicons.ttf": "/./fonts/Ionicons.ttf",
     "favicon-16.png": "/favicon-16.png",
     "favicon-32.png": "/favicon-32.png",
@@ -13,7 +13,7 @@
     "index.html": "/index.html",
     "manifest.json": "/manifest.json",
     "serve.json": "/serve.json",
-    "static/js/2.57bbe3d9.chunk.js.LICENSE.txt": "/static/js/2.57bbe3d9.chunk.js.LICENSE.txt",
+    "static/js/2.ad03a056.chunk.js.LICENSE.txt": "/static/js/2.ad03a056.chunk.js.LICENSE.txt",
     "static/media/cremedeespinafres.jpg": "/static/media/cremedeespinafres.d64f4c65.jpg",
     "static/media/greencity.png": "/static/media/greencity.978665f2.png",
     "static/media/pratoCarne.jpg": "/static/media/pratoCarne.92d38d67.jpg",
@@ -26,7 +26,7 @@
   },
   "entrypoints": [
     "static/js/runtime~app.2e9f1821.js",
-    "static/js/2.57bbe3d9.chunk.js",
-    "static/js/app.d442a6cf.chunk.js"
+    "static/js/2.ad03a056.chunk.js",
+    "static/js/app.3b03ecc7.chunk.js"
   ]
 }
