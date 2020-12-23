@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "da8b58b2ddad4ead1bf3",
-    "url": "/static/js/app.fdfe9f42.chunk.js"
+    "revision": "93372b757f8b77968cc2",
+    "url": "/static/js/app.e8478d75.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/pratoPeixe.20f9cfe0.jpg"
   },
   {
-    "revision": "b8cb201cda746f2abec9fad5a68a5778",
+    "revision": "dfa47e74a76a87a2c6dffff1517622cd",
     "url": "/index.html"
   },
   {
