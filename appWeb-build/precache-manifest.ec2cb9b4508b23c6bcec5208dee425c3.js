@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1f33d76aef47e5ec30c7",
-    "url": "/static/js/app.3b03ecc7.chunk.js"
+    "revision": "da8b58b2ddad4ead1bf3",
+    "url": "/static/js/app.fdfe9f42.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "b25a52f74b4794147df7",
-    "url": "/static/js/2.ad03a056.chunk.js"
+    "revision": "57a978a39b29debf8692",
+    "url": "/static/js/2.324fec7b.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -26,6 +26,14 @@ self.__precacheManifest = [
   {
     "revision": "b2e0fc821c6886fb3940f85a3320003e",
     "url": "/./fonts/Ionicons.ttf"
+  },
+  {
+    "revision": "961a663eb83575cd0c8da5eb5ac036d9",
+    "url": "/static/media/xmaspromo.1e866ef4.jpg"
+  },
+  {
+    "revision": "ab59fb58d3da18cde9918f24ade331e2",
+    "url": "/static/media/newYearPromo.40cdf873.jpg"
   },
   {
     "revision": "138a0836039a4d4ad06d1605a1897751",
@@ -52,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/pratoPeixe.20f9cfe0.jpg"
   },
   {
-    "revision": "02b3a432ba24c7fac3dbb58641ed59ca",
+    "revision": "b8cb201cda746f2abec9fad5a68a5778",
     "url": "/index.html"
   },
   {
@@ -68,8 +76,8 @@ self.__precacheManifest = [
     "url": "/register-service-worker.js"
   },
   {
-    "revision": "2a9264d9b0e2d5dc97be4ffd2511dd68",
-    "url": "/static/js/2.ad03a056.chunk.js.LICENSE.txt"
+    "revision": "89c707c57339a57caf1b5b0adefce795",
+    "url": "/static/js/2.324fec7b.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
