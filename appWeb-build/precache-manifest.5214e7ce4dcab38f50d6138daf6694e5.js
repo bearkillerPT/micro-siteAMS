@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "93372b757f8b77968cc2",
-    "url": "/static/js/app.e8478d75.chunk.js"
+    "revision": "037ba38b1e78dad0903b",
+    "url": "/static/js/app.610d97a4.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "57a978a39b29debf8692",
-    "url": "/static/js/2.324fec7b.chunk.js"
+    "revision": "6638bbab28e198596bc6",
+    "url": "/static/js/2.3849020c.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
     "url": "/static/media/pratoPeixe.20f9cfe0.jpg"
   },
   {
-    "revision": "dfa47e74a76a87a2c6dffff1517622cd",
+    "revision": "999350fa355e4c3998f26c6ef1e124a8",
     "url": "/index.html"
   },
   {
@@ -77,7 +77,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "89c707c57339a57caf1b5b0adefce795",
-    "url": "/static/js/2.324fec7b.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.3849020c.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
