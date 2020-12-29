@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "037ba38b1e78dad0903b",
-    "url": "/static/js/app.610d97a4.chunk.js"
+    "revision": "1db608f4ca0946658664",
+    "url": "/static/js/app.ace7301d.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "6638bbab28e198596bc6",
-    "url": "/static/js/2.3849020c.chunk.js"
+    "revision": "4b66af46c419995f0f9c",
+    "url": "/static/js/2.514dc0ad.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -22,18 +22,6 @@ self.__precacheManifest = [
   {
     "revision": "1a241dd0ffd553157345c346b69d9d13",
     "url": "/static/media/saladaqueijoserra.b0d06c06.jpg"
-  },
-  {
-    "revision": "b2e0fc821c6886fb3940f85a3320003e",
-    "url": "/./fonts/Ionicons.ttf"
-  },
-  {
-    "revision": "961a663eb83575cd0c8da5eb5ac036d9",
-    "url": "/static/media/xmaspromo.1e866ef4.jpg"
-  },
-  {
-    "revision": "ab59fb58d3da18cde9918f24ade331e2",
-    "url": "/static/media/newYearPromo.40cdf873.jpg"
   },
   {
     "revision": "138a0836039a4d4ad06d1605a1897751",
@@ -60,7 +48,23 @@ self.__precacheManifest = [
     "url": "/static/media/pratoPeixe.20f9cfe0.jpg"
   },
   {
-    "revision": "999350fa355e4c3998f26c6ef1e124a8",
+    "revision": "b2e0fc821c6886fb3940f85a3320003e",
+    "url": "/./fonts/Ionicons.ttf"
+  },
+  {
+    "revision": "3c851d60ad5ef3f2fe43ebd263490d78",
+    "url": "/./fonts/MaterialCommunityIcons.ttf"
+  },
+  {
+    "revision": "961a663eb83575cd0c8da5eb5ac036d9",
+    "url": "/static/media/xmaspromo.1e866ef4.jpg"
+  },
+  {
+    "revision": "ab59fb58d3da18cde9918f24ade331e2",
+    "url": "/static/media/newYearPromo.40cdf873.jpg"
+  },
+  {
+    "revision": "efc9907701bb0551c3bef558e058a1b5",
     "url": "/index.html"
   },
   {
@@ -77,7 +81,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "89c707c57339a57caf1b5b0adefce795",
-    "url": "/static/js/2.3849020c.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.514dc0ad.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
