@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "1db608f4ca0946658664",
-    "url": "/static/js/app.ace7301d.chunk.js"
+    "revision": "0a1f90f544689c621988",
+    "url": "/static/js/app.8afdc262.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "4b66af46c419995f0f9c",
-    "url": "/static/js/2.514dc0ad.chunk.js"
+    "revision": "c201f8a756881bc33351",
+    "url": "/static/js/2.c618faba.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -48,6 +48,22 @@ self.__precacheManifest = [
     "url": "/static/media/pratoPeixe.20f9cfe0.jpg"
   },
   {
+    "revision": "004c2bbb035d8d06bb830efc4673c886",
+    "url": "/static/media/star.69c71386.png"
+  },
+  {
+    "revision": "2327736b3ea09c41abfb69be1221f430",
+    "url": "/static/media/heart.23b5c2c0.png"
+  },
+  {
+    "revision": "51671417ef20e0bbc32f0a2bc6edfa95",
+    "url": "/static/media/rocket.d2f3bf41.png"
+  },
+  {
+    "revision": "a7b9dc9de5f8f1fb1afbef917619a5ac",
+    "url": "/static/media/bell.cf04af27.png"
+  },
+  {
     "revision": "b2e0fc821c6886fb3940f85a3320003e",
     "url": "/./fonts/Ionicons.ttf"
   },
@@ -64,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/newYearPromo.40cdf873.jpg"
   },
   {
-    "revision": "efc9907701bb0551c3bef558e058a1b5",
+    "revision": "388429f333b6b88bbc4316db9ccab6b1",
     "url": "/index.html"
   },
   {
@@ -80,8 +96,8 @@ self.__precacheManifest = [
     "url": "/register-service-worker.js"
   },
   {
-    "revision": "89c707c57339a57caf1b5b0adefce795",
-    "url": "/static/js/2.514dc0ad.chunk.js.LICENSE.txt"
+    "revision": "93a621a3ae35dbac4dab9350ed43f372",
+    "url": "/static/js/2.c618faba.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
