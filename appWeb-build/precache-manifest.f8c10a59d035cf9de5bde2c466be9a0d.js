@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "08970d7c9bd194c79c21",
-    "url": "/static/js/app.43a728f1.chunk.js"
+    "revision": "c19784423b22de0955cf",
+    "url": "/static/js/app.d00e4549.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
     "url": "/static/media/newYearPromo.40cdf873.jpg"
   },
   {
-    "revision": "f5ea8b215d246bf122fb86059d26ddd1",
+    "revision": "01dab20c4fde08a625683ea6c578d9e2",
     "url": "/index.html"
   },
   {
