@@ -28,8 +28,9 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'login.png',
-    title: 'Aplicação para encomendar comida',
+    img: 'login.jpg',
+    newLineTitle: ".",
+    title: "Aplicação para encomendar comida",
     info:
       'O nosso projeto atualmente é a introdução de uma aplicação. Este sistema de informação vai simplificar o processo de encomendar e pagar pela comida.',
     info2: 'Experimente a app agora:',
