@@ -49,16 +49,18 @@ export const projectsData = [
     info: ' ',
     info2: ' ',
     infoDict: {
-      'Entrega nº1':
+      'Entrega nº1 (Lab 1)':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/entrega1.zip',
-      'Entrega nº2':
+      'Entrega nº2 (Lab 2)':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/entrega2.pdf',
-      'Entrega nº3':
+      'Entrega nº3 (Relatório E2)':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/AMS-E2-Relatorio%20Visao.pdf',
-        'Entrega nº4':
+        'Entrega nº4 (Lab 3)':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/LAB_3_AMS.pdf',
-        'Entrega nº5':
+        'Entrega nº5 (Lab 4)':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/LAB_4_AMS.pdf',
+        'Entrega nº6 (Relatório E3)':
+        'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/AMS_Iteracao2.zip',
     },
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
