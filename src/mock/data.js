@@ -28,13 +28,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: '',
+    img: 'login.png',
     title: 'Aplicação para encomendar comida',
     info:
       'O nosso projeto atualmente é a introdução de uma aplicação. Este sistema de informação vai simplificar o processo de encomendar e pagar pela comida.',
     info2: 'Experimente a app:',
     infoDict: '',
-    videoSource: 'app.mp4',
+    //videoSource: 'app.mp4',
     url: 'https://micro-site-ams.herokuapp.com/app', // if no url, the button will not show up
     repo: 'https://github.com/bearkillerPT/appAMS', // if no repo, the button will not show up
   },
@@ -51,8 +51,10 @@ export const projectsData = [
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/entrega2.pdf',
       'Entrega nº3':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/AMS-E2-Relatorio%20Visao.pdf',
-      'Entrega nº4':
+        'Entrega nº4':
         'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/LAB_3_AMS.pdf',
+        'Entrega nº5':
+        'https://github.com/bearkillerPT/micro-siteAMS/raw/master/entregas/LAB_4_AMS.pdf',
     },
     url: '', // if no url, the button will not show up
     repo: '', // if no repo, the button will not show up
