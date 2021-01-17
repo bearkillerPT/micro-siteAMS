@@ -43,8 +43,7 @@ const Projects = () => {
                     >
                       <div className="project-wrapper__text">
                         {newLineTitle && 
-                        (<div><p style={{color:  '#B0F2F6'}}>{newLineTitle}</p>
-                        <p style={{color:  '#B0F2F6'}}>{newLineTitle}</p></div>)}
+                        (<div><br/><br/></div>)}
                         <h3 className="project-wrapper__text-title">{title || 'Project Title'}</h3>
                         <div>
                           <p>
@@ -78,6 +77,7 @@ const Projects = () => {
                         {infoDict &&
                     Object.entries(infoDict).map((key) =>
                       <div>
+                        <br/>
                         <p style={{ fontWeight: 'bold' }}>{key[0]}:</p>
                         <a
                           target="_blank"
