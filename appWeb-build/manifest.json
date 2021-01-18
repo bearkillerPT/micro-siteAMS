@@ -4,7 +4,7 @@
   "lang": "en",
   "name": "Nutrilink",
   "short_name": "Nutrilink",
-  "start_url": "/?utm_source=web_app_manifest",
+  "start_url": "/app",
   "orientation": "portrait",
   "related_applications": [
     {
