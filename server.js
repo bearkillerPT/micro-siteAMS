@@ -8,8 +8,8 @@ const APPINDEX = 'appWeb-build/index.html';
 const server = express()
   .use(express.static('public'))
   .use(express.static('appWeb-build'))
-  .get('/', (req, res) => res.sendFile(INDEX, { root: __dirname }))
   .get('/app', (req, res) => res.sendFile(APPINDEX, { root: __dirname }))
+  .get('/', (req, res) => res.sendFile(INDEX, { root: __dirname }))
   .listen(PORT, () => console.log(`Listening on ${PORT}`));
 
 const wss = new Server({ server });
