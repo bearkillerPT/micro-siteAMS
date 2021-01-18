@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a3f54c9a0581e944bd8a",
-    "url": "/static/js/app.9c6d7983.chunk.js"
+    "revision": "4b26cae59c9ad7faaf00",
+    "url": "/static/js/app.f414b74f.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "f839ce81c94dc5f8652f",
-    "url": "/static/js/2.faa1da03.chunk.js"
+    "revision": "1b06cb2e4d7687c94a6f",
+    "url": "/static/js/2.9eebc8c9.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -64,12 +64,16 @@ self.__precacheManifest = [
     "url": "/static/media/bell.cf04af27.png"
   },
   {
+    "revision": "3c851d60ad5ef3f2fe43ebd263490d78",
+    "url": "/./fonts/MaterialCommunityIcons.ttf"
+  },
+  {
     "revision": "b2e0fc821c6886fb3940f85a3320003e",
     "url": "/./fonts/Ionicons.ttf"
   },
   {
-    "revision": "3c851d60ad5ef3f2fe43ebd263490d78",
-    "url": "/./fonts/MaterialCommunityIcons.ttf"
+    "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
+    "url": "/./fonts/MaterialIcons.ttf"
   },
   {
     "revision": "961a663eb83575cd0c8da5eb5ac036d9",
@@ -80,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/newYearPromo.40cdf873.jpg"
   },
   {
-    "revision": "c6e53073ffd9cc64a29d008b43a8f775",
+    "revision": "b07f1542dce1b84543f2d4ab2fbc8ad9",
     "url": "/index.html"
   },
   {
@@ -97,7 +101,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "93a621a3ae35dbac4dab9350ed43f372",
-    "url": "/static/js/2.faa1da03.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.9eebc8c9.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
