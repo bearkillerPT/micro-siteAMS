@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a1451838041b72a6e793",
-    "url": "/static/js/app.ecb31f56.chunk.js"
+    "revision": "8fcf3e6543ec510d6bb4",
+    "url": "/static/js/app.5f46d993.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "c18eaffcff06d41545e5",
-    "url": "/static/js/2.096e2188.chunk.js"
+    "revision": "402fba3558176d64c074",
+    "url": "/static/js/2.b57840db.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -52,6 +52,14 @@ self.__precacheManifest = [
     "url": "/static/media/star.69c71386.png"
   },
   {
+    "revision": "961a663eb83575cd0c8da5eb5ac036d9",
+    "url": "/static/media/xmaspromo.1e866ef4.jpg"
+  },
+  {
+    "revision": "ab59fb58d3da18cde9918f24ade331e2",
+    "url": "/static/media/newYearPromo.40cdf873.jpg"
+  },
+  {
     "revision": "2327736b3ea09c41abfb69be1221f430",
     "url": "/static/media/heart.23b5c2c0.png"
   },
@@ -76,15 +84,11 @@ self.__precacheManifest = [
     "url": "/./fonts/MaterialIcons.ttf"
   },
   {
-    "revision": "961a663eb83575cd0c8da5eb5ac036d9",
-    "url": "/static/media/xmaspromo.1e866ef4.jpg"
+    "revision": "4f1cb2cac2370cd5050681232e8575a8",
+    "url": "/static/media/favicon.fa4783d1.png"
   },
   {
-    "revision": "ab59fb58d3da18cde9918f24ade331e2",
-    "url": "/static/media/newYearPromo.40cdf873.jpg"
-  },
-  {
-    "revision": "7ee4f3ecf8ccf4f24039707ed6337829",
+    "revision": "1c6f91dd33f13018a6f98b299f72b30e",
     "url": "/index.html"
   },
   {
@@ -101,7 +105,7 @@ self.__precacheManifest = [
   },
   {
     "revision": "99a78ef9c5e4236e15711d84d76bd37f",
-    "url": "/static/js/2.096e2188.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.b57840db.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
