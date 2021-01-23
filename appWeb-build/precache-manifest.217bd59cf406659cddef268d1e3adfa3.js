@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "4b26cae59c9ad7faaf00",
-    "url": "/static/js/app.f414b74f.chunk.js"
+    "revision": "85373edde68d8ccac955",
+    "url": "/static/js/app.6bee7857.chunk.js"
   },
   {
     "revision": "66090dc4495d4ce3dfb9",
     "url": "/static/js/runtime~app.2e9f1821.js"
   },
   {
-    "revision": "1b06cb2e4d7687c94a6f",
-    "url": "/static/js/2.9eebc8c9.chunk.js"
+    "revision": "c18eaffcff06d41545e5",
+    "url": "/static/js/2.096e2188.chunk.js"
   },
   {
     "revision": "0fbab887ac256a42712cdc25bd7b5a46",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/static/media/newYearPromo.40cdf873.jpg"
   },
   {
-    "revision": "b07f1542dce1b84543f2d4ab2fbc8ad9",
+    "revision": "1d2f02e93e9e7a7dcb73cbb87851e07d",
     "url": "/index.html"
   },
   {
@@ -100,8 +100,8 @@ self.__precacheManifest = [
     "url": "/register-service-worker.js"
   },
   {
-    "revision": "93a621a3ae35dbac4dab9350ed43f372",
-    "url": "/static/js/2.9eebc8c9.chunk.js.LICENSE.txt"
+    "revision": "99a78ef9c5e4236e15711d84d76bd37f",
+    "url": "/static/js/2.096e2188.chunk.js.LICENSE.txt"
   },
   {
     "revision": "71033553ddc0843407efe54c23890fe2",
